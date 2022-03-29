@@ -1,0 +1,16 @@
+#img{
+    height: 100px;
+    width: 100px;
+}
+
+#name{
+    text-align: center;
+    color: white;
+}
+
+#exe{
+    height: 50px;
+    position: absolute;
+    border: 3px solid rgb(206, 14, 14);
+    
+}

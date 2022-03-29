@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/img/bar.jpg");
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+header a:hover{
+    transform: scale(1.1);
+    background-color: rgb(236, 139, 70);
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.5);
+    transform: 0.5s;
+    border-radius: 2px;
+}
+
+#barra1{
+    background-color: black;
+}
+#barra{
+    background-color: rgba(0, 0, 0, 0.507);
+    text-align: center;
+}
+
+#colorSuper{
+    color: azure;
+    -webkit-text-stroke:black;
+}
+#barra2{
+    background-color: rgba(0, 0, 0, 0.507);
+    height: 7vh;
+}
+
+#cat{
+    background-color: black;
+    color: white;
+    margin: 30px;
+}
+
+#img{
+    height: 274px;
+}
+
+#barras{
+    background-color: rgba(0, 0, 0, 0.829);
+    text-align: center;
+}
+
+/*#botonR{
+    float-righ
+}*/

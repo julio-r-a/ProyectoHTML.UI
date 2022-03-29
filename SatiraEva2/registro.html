@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="shortcut icon" href="/img/log.png" />
+    <title>Satira || Registro</title>
+</head>
+
+<body background="/src/main/resources/static/img/bar.jpg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">
+                <img src="/img/log.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Satira
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col my-auto m-4">
+                <br />
+                <img src="/img/log.png" class="rounded-circle" alt="..." width="400px" height="400px">
+                <br />
+            </div>
+            <div class="col bg-dark text-light p-4 m-4" style="border-radius: 25px;">
+                <form  class="form-control-lg">
+                    <div class="mb-2">
+                        <h1>Registro</h1>
+                        <label id="nom" for="nombre" class="form-label">Nombres:</label>
+                        <input type="nombre" class="form-control" id="nombre1" />
+                    </div>
+                    <div class="mb-2">
+                        <label id="ape" for="apellido" class="form-label">Apellidos:</label>
+                        <input type="apellido" class="form-control" id="apellido1" />
+                    </div>
+                    <div class="mb-2">
+                        <label id="ema" for="exampleInputEmail1" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="correo1" aria-describedby="emailHelp" />
+                    </div>
+                    <div class="mb-2">
+                        <label id="pas" for="exampleInputPassword1" class="form-label">Contraseña:</label>
+                        <input type="password" class="form-control" id="contrasena1" />
+                    </div><br>
+                    <button  class="btn btn-outline-light btn-lg" type="button" onclick="captura()"> Registrar </button>
+                    <button  id="apa" class="btn btn-outline-light btn-lg" type="button"> Aparecer </button>
+
+                </form>
+            </div>
+        </form>
+    </div>
+    <script src="/js/jquery-3.6.0.js"></script>
+    <script src="/js/miJS.js" ></script>
+    <script src="/js/registro.js"></script>
+</body>
+</html>
